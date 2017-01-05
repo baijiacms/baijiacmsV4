@@ -5,6 +5,4 @@
 4.php环境推荐php5.4或者php5.5版本最佳，不支持IIS。<br/>
 
 PHP运行环境新手推荐工具下载地址：<br/>
-https://www.apachefriends.org/download.html<br/>
-
-如果您遇到到使用上面的问题，请在微信公众号“百家cms”点击bug反馈告诉我们，感谢您的支持！<br/>
+https://www.apachefriends.org/download.html
