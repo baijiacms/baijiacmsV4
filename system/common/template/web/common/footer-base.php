@@ -1,1 +1,0 @@
-<?php defined('IN_IA') or exit('Access Denied'); include SYSTEM_ROOT.'common/template/web/footer-base.php';?> 
