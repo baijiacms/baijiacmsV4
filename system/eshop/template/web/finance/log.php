@@ -16,10 +16,10 @@
                     <input type="text" class="form-control"  name="realname" value="<?php  echo $_GPC['realname'];?>" placeholder='可搜索会员昵称/姓名/手机号/会员ID'/> 
                 </div>
                 
-                <label class="col-xs-12 col-sm-2 col-md-2 col-lg-1 control-label">充值单号</label>
+             <?php  if($_GPC['type']==0) { ?> <label class="col-xs-12 col-sm-2 col-md-2 col-lg-1 control-label">充值单号</label>
                 <div class="col-sm-4">
                     <input type="text" class="form-control"  name="logno" value="<?php  echo $_GPC['logno'];?>" placeholder='可搜索充值单号'/> 
-                </div>
+                </div><?php }?>
             </div>
              
            
