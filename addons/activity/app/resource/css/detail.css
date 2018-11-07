@@ -1,0 +1,54 @@
+.swiper-container{position:relative;width:100%;height:220px}
+.swiper-container img{width:100%;height:100%}
+.swiper-container h3{position:absolute;bottom:0;left:0;z-index:100;padding:10px;color:#fff;font-weight:700;font-size:18px}
+.bodybox{margin:0 auto;width:100%}
+.basic-box{z-index:100;margin:0 auto;padding:10px 2%;width:100%;background-color:#fff;color:#666;font-size:15px}
+.basic-box .buy-box{overflow:hidden;line-height:34px}
+.basic-box .buy-box .rmb-num{color:#FB7D29;font-size:20px}
+.basic-box .buy-box .market{margin-left:10px;color:#A3A3A3;font-style:normal;font-size:12px}
+.basic-box .buy-box .num,.basic-box .buy-box .price{float:left;display:inline-block}
+.basic-box .buy-box .btn{float:right;display:inline-block}
+.basic-box .buy-box .buy-btn{display:inline-block;width:118px;height:34px;border-radius:6px;background:#FF7B33;color:#FFF;text-align:center;font-size:14px;line-height:34px}
+.basic-box .buy-box .buy-btn1{display:inline-block;width:118px;height:34px;border-radius:6px;background:#ccc;color:#FFF;text-align:center;font-size:14px;line-height:34px}
+.basic-box .end-date{margin-top:5px;font-size:14px}
+.M_detail{margin:7px 0 7px 0;background-color:#fff}
+.M_detail .mod_tab{overflow:hidden;padding-left:2%;width:98%;height:30px;color:#A2A2A2;font-size:12px;line-height:30px}
+.M_detail .detail-item{overflow:hidden;padding:10px 0 10px 5px;background:#FFF;color:#000;font-size:13px;line-height:20px}
+.M_detail .detail-item .bm-user{display:inline-block;margin-left:7px;width:35px;height:35px;border-radius:50%}
+.M_detail .detail-more{border-top:1px solid #EAEAEA;border-bottom:1px solid #EAEAEA;background:#FFF}
+.M_detail .more-user{display:block;padding:0 15px 0 0;background:#FFF url(../images/icon-arrow.png) no-repeat 95% center;background-size:20px 17px;-webkit-background-size:20px 17px}
+.msgDiv{padding:8px 2%;width:100%;background-color:#fff;font-size:14px}
+a .msgDiv:active{background-color:#eee}
+a .msgDiv{ font-weight:bold;}
+.msgDiv>img{margin-right:10px;width:15px;height:15px;vertical-align:middle}
+.M_detail-con{margin:0 auto;width:96%}
+.M_detail-con-txt{padding:5px 0;font-size:14px}
+.M_detail-con img{margin-top:5px;width:100%;height:auto!important}
+h4.subtitle{display:inline-block;margin-top:20px;margin-bottom:12px;padding:2px 12px;border-radius:20px;background-size:15px 15px;color:#FFF;text-indent:18px;font-weight:700;font-size:16px;line-height:20px}
+.icon1{background:#4ABEB3 url(../images/con-icon-1.png) 12px center no-repeat}
+.icon2{background:#4ABEB3 url(../images/con-icon-3.png) 12px center no-repeat}
+.content{margin:0 auto}
+.txt4Title{padding:10px 0;border-bottom:1px solid #46cec0}
+.txt4Sub{margin:7px 0;color:#FB7D29;font-size:12px}
+.txt4Img{margin:5px 0;width:100%}
+.peopleData{overflow:hidden;margin-top:10px;margin-left:2%;padding-bottom:12px;width:96%;border-bottom:1px solid #eee}
+.peopleData-head{float:left;margin-top:5px;margin-left:10px;width:40px;height:40px;border-radius:50%}
+.peopleData-leftData{float:left;margin-left:10px;width:80%;font-size:14px}
+.peopleData-name{overflow:hidden;width:100%}
+.peopleData-name-support{float:right;width:15%}
+.peopleData-name>span{display:inline-block;width:80%}
+.peopleData-name-support>img{width:17px;vertical-align:bottom}
+.peopleData-name-support>span{display:inline-block;margin-left:10px;color:#ccc}
+.city-comm-more{margin-top:-1px;background:#FFF;text-align:center;font-weight:700;font-size:14px;line-height:40px;cursor:pointer}
+.city-comm-cmm{margin-top:-1px;padding:10px;height:auto}
+.city-comm-cmm-txt{padding:5px;width:97%;height:76px;border:1px solid #DFDFDF;border-radius:3px;background-color:#fff;font-size:13px;-webkit-appearance:none}
+.city-comm-cmm .comment-btn{display:inline-block;margin-top:5px;width:100%;height:35px;border-radius:4px;color:#fff;text-align:center;font-size:14px;line-height:35px}
+.height-box{height:50px}
+.M_layer .layer-box2{position:fixed;bottom:0;z-index:999;display:-webkit-box;width:100%;min-height:42px;background-color:#DFDFDF;color:#686868;text-align:center;line-height:42px;-webkit-box-orient:horizontal}
+.M_layer .layer-box2 .layer-item{text-align:center;-webkit-box-flex:1}
+.M_layer .layer-box2 .layer-item .icon-like{display:inline-block;padding-left:26px;height:17px;font-size:13px;line-height:17px}
+.icon-like-img{margin-right:10px;width:20px;height:17px;vertical-align:top}
+.M_layer .layer-box2 .layer-item .icon-comment{display:inline-block;padding-left:26px;width:52px;height:17px;background:url(../images/layer-icon3.png) no-repeat;background-size:20px 17px;color:#686868;font-size:13px;line-height:17px}
+.M_layer .layer-box{position:fixed;bottom:0;z-index:999;width:100%;min-height:46px;background-color:#333;color:#fff;text-align:center;line-height:46px}
+.fix:after{clear:both;display:block;height:0;content:'\20'}
+@media screen and (max-width:320px){.swiper-container{width:100%;height:150px}}

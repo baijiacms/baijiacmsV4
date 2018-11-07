@@ -1,0 +1,127 @@
+.posiRela{position: relative;}
+#wrapper {
+    margin:0 auto;
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+}
+@media screen and (min-width:480px) {
+    #wrapper {
+        margin:0 auto;
+        border-left:1px solid #ccc;
+        border-right:1px solid #ccc;
+    }
+}
+ul{list-style:none;}
+.wrapper-con{width: 95%;margin: 15px auto}
+.icon-img{
+    width: 14px;
+    height: 14px;
+    margin-right: 7px;
+    vertical-align: -2px;
+    display: inline-block;
+}
+.icon-time {
+    background: url("../images/icon-time.png") no-repeat;
+    background-size: 14px 14px;
+}
+.icon-address {
+    background: url("../images/icon-address.png") no-repeat;
+    background-size: 14px 14px;
+}
+.caption {
+    width:99.5%;
+    border: 1px solid #E3E3E3;
+    border-top: 0 none;
+    border-bottom: 0;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    color: #939393;
+}
+.caption-c {
+    padding:10px 12px 5px;
+    background-color: #fff
+}
+.caption-c h3 {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.tag {
+    position: absolute;
+    left:0;
+    top:10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    font-weight:bold;
+    line-height: 14px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 7px;
+    color: #fff;
+    border-left: 3px solid #348379;
+}
+.bot-info{
+    overflow: hidden;
+    line-height: 28px;
+    border-top: 1px solid #E3E3E3;
+    background: #f9f9f9;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+.bot-info .bot-left span {
+    /*color:#46CEC0;*/
+    font-size:16px;
+    margin-right:8px;
+}
+.bot-info .bot-btn {
+    float:right;
+    padding:6px 8px;
+    line-height:14px;
+    
+    font-size:14px;
+    font-weight:bold;
+    border-radius:4px;
+    text-align:center;
+}
+.bot-info .bot-btn1 {
+    float:right;
+    padding:6px 8px;
+    line-height:14px;
+    border:1px solid #ccc;
+    color:#ccc;
+    font-size:14px;
+    font-weight:bold;
+    border-radius:4px;
+    text-align:center;
+}
+.icon-info li {
+    margin-bottom:8px;
+    font-size:14px;
+}
+@media screen and (max-width: 320px){
+    .img-responsive {
+        width:100%;
+        height:175;
+        vertical-align: bottom;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 375px){
+    .img-responsive {
+        width:100%;
+        height:190px;
+        vertical-align: bottom;
+    }
+}
+@media screen and (min-width: 376px) and (max-width: 413px){
+    .img-responsive {
+        width:100%;
+        height:200px;
+        vertical-align: bottom;
+    }
+}
+@media screen and (min-width: 414px){
+    .img-responsive {
+        width:100%;
+        height:200px;
+        vertical-align: bottom;
+    }
+}
