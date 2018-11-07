@@ -1,0 +1,15 @@
+.custom_page_header {
+    border-bottom-color: #d5e3ef;
+    line-height: 28px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+     padding-left: 15px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #CCC;
+        color: #478fca!important;
+        font-weight: lighter;
+            font-size: 21px;font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.panel-default {
+    border-color: #fff;
+}
